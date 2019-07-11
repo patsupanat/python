@@ -1,35 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-
+<html>
+<head>
+<?php require_once "header.php"; ?>
+</head>
+<body>
+<div style="padding: 0px 15px 0px 15px;">
+<h1>Python</h1>
 <ul class="nav nav-pills nav-stacked">
-      <h1 align="center">Python</h1>
-     <table border="0" align="center">
+<li><a href="auto.php?exercise=hello&done=index.php">Hello World</a></li>
+<li><a href="auto.php?exercise=2.2&done=index.php">Exercise 2.2</a></li>
+<li><a href="auto.php?exercise=2.3&done=index.php">Exercise 2.3</a></li>
+<li><a href="auto.php?exercise=3.1&done=index.php">Exercise 3.1</a></li>
+<li><a href="auto.php?exercise=3.3&done=index.php">Exercise 3.3</a></li>
+<li><a href="auto.php?exercise=loop&done=index.php">For loop</a></li>
+<li><a href="auto.php?done=index.php">Counting the lines in a file</a></li>
+</ul>
 
-
-       <tr>
-         <td><a href="1.php">Hello World</a></td><td><a href="https://firebasestorage.googleapis.com/v0/b/python-c0103.appspot.com/o/1.pdf?alt=media&token=5c352b63-5fd5-4b16-8b9f-ac09b41db048">รายละเอียด</a></td>
-       </tr>
-       <tr>
-         <td><a href="auto.php?exercise=2.2&done=index.php">Exercise 2.2</a></td><td><a href="https://firebasestorage.googleapis.com/v0/b/python-c0103.appspot.com/o/1.pdf?alt=media&token=5c352b63-5fd5-4b16-8b9f-ac09b41db048">รายละเอียด</a></td>
-       </tr>
-       <tr>
-         <td><a href="auto.php?exercise=3.3&done=index.php">Exercise 3.3</a></td><td><a href="https://firebasestorage.googleapis.com/v0/b/python-c0103.appspot.com/o/1.pdf?alt=media&token=5c352b63-5fd5-4b16-8b9f-ac09b41db048">รายละเอียด</a></td>
-       </tr>
-       <tr>
-         <td><a href="auto.php?exercise=loop&done=index.php">For loop</a></td><td><a href="https://firebasestorage.googleapis.com/v0/b/python-c0103.appspot.com/o/1.pdf?alt=media&token=5c352b63-5fd5-4b16-8b9f-ac09b41db048">รายละเอียด</a></td>
-       </tr>
-       <tr>
-         <td><a href="auto.php?done=index.php">Counting the lines in a file</a></td><td><a href="https://firebasestorage.googleapis.com/v0/b/python-c0103.appspot.com/o/1.pdf?alt=media&token=5c352b63-5fd5-4b16-8b9f-ac09b41db048">รายละเอียด</a></td>
-       </tr>
-
-
-     </table>
-
-ssss
-  </body>
-</html>
+</div>
+</body>
